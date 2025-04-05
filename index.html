@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bollettini di Criticità</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .button-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+        .button-grid button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Bollettini di Criticità</h2>
+
+        <div class="button-grid">
+            <button onclick="location.href='idro.html'">Criticità Idrogeologica</button>
+            <button onclick="location.href='temporali.html'">Criticità Idrogeologica per temporali</button>
+            <button onclick="location.href='idrica.html'">Criticità Idrica</button>
+            <button onclick="location.href='mappa.html'">Mappa di Criticità</button>
+        </div>
+    </div>
+</body>
+
+</html>
